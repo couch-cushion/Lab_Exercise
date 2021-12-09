@@ -16,7 +16,7 @@
         android:onClick="showtoast"
         android:padding="15sp"
         android:text="@string/button_label_toast"
-        android:textColor="#BCAAA4"
+        android:textColor="#757575"
         android:textSize="35sp"
 
         />
