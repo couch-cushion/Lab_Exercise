@@ -5,11 +5,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/article_heading"
         android:background="@color/design_default_color_primary"
         android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:paddingEnd="90dp"
         android:padding="10dp"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:textStyle="bold"
@@ -20,29 +24,31 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/article_heading">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/article_subheading"
-                android:layout_below="@+id/article_heading"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
                 android:padding="@dimen/padding_regular"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
-                android:text="@string/article_subtitle" />
+                android:text="@string/article_subtitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
 
             <TextView
                 android:id="@+id/article"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/article_subheading"
                 android:autoLink="web"
                 android:lineSpacingExtra="@dimen/line_spacing"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_text" />
-        </LinearLayout>
+        </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
