@@ -8,3 +8,8 @@
 ![task-4](https://user-images.githubusercontent.com/80693014/145613702-2db40de5-191c-40fc-a15e-58b0c63a11f0.gif)
 ![task-5](https://user-images.githubusercontent.com/80693014/145613704-705b29f1-e80c-4b18-adc4-181a5a47e63a.gif)
 ![task-6](https://user-images.githubusercontent.com/80693014/145613708-2a5d73ae-c290-48ce-ab7a-e797f24c61d5.gif)
+
+
+![task-1](https://user-images.githubusercontent.com/80693014/145614720-00600dd3-6254-41a1-9e78-5e39e19b66a3.gif)
+![task-1b](https://user-images.githubusercontent.com/80693014/145614723-edd60fb7-9054-476f-b8e7-717b845cb461.gif)
+![Task-2](https://user-images.githubusercontent.com/80693014/145614726-7a788683-694b-4535-852e-41407900b852.gif)
