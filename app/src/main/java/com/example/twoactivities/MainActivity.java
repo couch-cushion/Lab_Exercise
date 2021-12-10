@@ -59,7 +59,15 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.d(LOG_TAG, "onDestroy");
     }
-
+    @Override
+    public  void    onSaveInstanceState(Bundle outstate)
+    {
+        super.onSaveInstanceState(outstate);
+        if (mReplyHeadTextView.getVisibility() == View.VISIBLE) {
+            outstate.putBoolean("reply_visible", true);
+            outstate.putString("reply_text",mReplyTextView.getText().toString());
+        }
+    }
 
 
 
