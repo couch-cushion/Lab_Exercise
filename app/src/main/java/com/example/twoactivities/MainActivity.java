@@ -39,12 +39,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(resultCode, resultCode, data);
+        resultCode = 1;
         if (resultCode == TEXT_REQUEST) {
-            if (resultCode == RESULT_OK) {
+
                 String reply = data.getStringExtra(SecondActivity.Extra_REPLY);
                 mReplyTextView.setText(reply);
                 mReplyHeadTextView.setVisibility(View.VISIBLE);
-            }
+
         }
     }
 }
